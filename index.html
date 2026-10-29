@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Half Orange Limited</title>
+<meta name="description" content="Half Orange Limited is an Irish software company. Registered in Ireland, company number 827573.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  :root { --ink:#1d1b19; --muted:#6b645d; --line:#e7e1da; --bg:#fbf8f4; --accent:#e5671c; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; }
+  body { background:var(--bg); color:var(--ink); font:400 17px/1.6 "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; min-height:100vh; display:flex; flex-direction:column; }
+  .wrap { width:100%; max-width:760px; margin:0 auto; padding:0 24px; }
+  header { padding:40px 0 0; }
+  .brand { display:flex; align-items:center; gap:12px; font-weight:700; letter-spacing:-.01em; font-size:18px; }
+  .dot { width:22px; height:22px; border-radius:50%; background:linear-gradient(90deg,var(--accent) 50%, transparent 50%); border:2px solid var(--accent); flex:none; }
+  main { flex:1; padding:72px 0 56px; }
+  h1 { font-size:clamp(34px,6vw,52px); line-height:1.08; letter-spacing:-.025em; margin:0 0 20px; font-weight:700; }
+  .lead { font-size:clamp(18px,2.4vw,21px); color:var(--muted); max-width:34em; margin:0 0 40px; }
+  .contact a { display:inline-block; color:#fff; background:var(--ink); text-decoration:none; padding:12px 20px; border-radius:8px; font-weight:600; }
+  .contact a:hover, .contact a:focus-visible { background:var(--accent); outline:none; }
+  section.details { margin-top:72px; border-top:1px solid var(--line); padding-top:28px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin:0 0 16px; font-weight:600; }
+  dl { display:grid; grid-template-columns:max-content 1fr; gap:10px 28px; margin:0; }
+  dt { color:var(--muted); }
+  dd { margin:0; }
+  dd a { color:var(--ink); }
+  footer { border-top:1px solid var(--line); padding:20px 0 28px; color:var(--muted); font-size:14px; }
+  @media (max-width:520px) { dl { grid-template-columns:1fr; gap:2px; } dd { margin-bottom:12px; } main { padding-top:48px; } }
+</style>
+</head>
+<body>
+  <header><div class="wrap"><div class="brand"><span class="dot" aria-hidden="true"></span>Half Orange</div></div></header>
+  <main>
+    <div class="wrap">
+      <h1>Practical software for small Irish businesses.</h1>
+      <p class="lead">Half Orange Limited designs and builds straightforward software that fits the way small teams already work.</p>
+      <p class="contact"><a href="mailto:paul@halforange.ie">paul@halforange.ie</a></p>
+      <section class="details" aria-labelledby="company">
+        <h2 id="company">Company details</h2>
+        <dl>
+          <dt>Company name</dt><dd>Half Orange Limited</dd>
+          <dt>Registered in</dt><dd>Ireland</dd>
+          <dt>Company number</dt><dd>827573</dd>
+          <dt>Registered office</dt><dd>143 Meadow Grove, Dundrum, Dublin, D16 F593, Ireland</dd>
+          <dt>Email</dt><dd><a href="mailto:paul@halforange.ie">paul@halforange.ie</a></dd>
+        </dl>
+      </section>
+    </div>
+  </main>
+  <footer><div class="wrap">© 2026 Half Orange Limited. Registered in Ireland, company number 827573.</div></footer>
+</body>
+</html>
